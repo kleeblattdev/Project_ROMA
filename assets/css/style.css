@@ -86,7 +86,7 @@ header{
 h1{
     color: #efefef;
     font-size: 6rem;
-    width: 550px;
+    width: 30vw;
     margin-top: 20vh;
     margin-left: 5vw;
 }
@@ -232,6 +232,7 @@ h3{
 /* ============== MEDIA QUERIES MAX WIDTH 992px ================== */
 
 @media only screen and (max-width:992px) {
+
     .children{
         height: 75vh;
     }
@@ -249,7 +250,12 @@ h3{
 /* ============== MEDIA QUERIES MAX WIDTH 576px ================== */
 
 @media only screen and (max-width:576px){
-    .children{
+
+    h2{
+        font-size: 8rem;
+    }
+
+.children{
         height: 44vh;
     }
 }
