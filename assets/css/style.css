@@ -19,8 +19,8 @@ font-family: 'Santio bold';
 }
 
 @font-face {
-    font-family: 'Tangerine';
-    src: url(../fonts/Tangerine/Tangerine-Regular.ttf);
+    font-family: 'Tangerine-Bold';
+    src: url(../fonts/Tangerine/Tangerine-Bold.ttf);
 }
 
 @font-face {
@@ -54,12 +54,17 @@ h1, h2, h3, p{
 
 header{
     background-image: url(../images/cleo-topper.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1{
     color: #efefef;
     font-size: 6rem;
     width: 550px;
+    margin-top: 20vh;
     margin-left: 5vw;
 }
 
@@ -93,11 +98,13 @@ h1{
 
 .scrollText{
     color:#e7bc0e;
-    font-family: 'Tangerine', cursive;
+    font-family: 'Tangerine-Bold', cursive;
+    font-size: 3rem;
+    margin-left: 5vw;
 }
 
 .arrowDown{
-    transform: rotate(180deg);
+    transform: rotate(90deg);
 }
 
 /* ============== WORKER STYLE ================== */
