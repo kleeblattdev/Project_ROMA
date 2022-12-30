@@ -209,10 +209,18 @@ h3{
     border: 2px solid #efefef;
 }
 
+.donateButton:hover{
+    box-shadow: 10px 4px 2px 4px #efefef;
+}
+
 /* ============== LinkTEXT STYLE ================== */
 
 .filmlinkText{
     text-align: center;
     padding: 20px;
     margin-top: 25vh;
+}
+
+.filmlinkHover:hover{
+    text-decoration: underline;
 }
