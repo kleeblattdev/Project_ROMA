@@ -100,6 +100,7 @@ header section{
 
 .action{
     padding: 10px;
+    margin-right: 3vw;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -138,7 +139,10 @@ header section{
 }
 
 .arrowDown {
+    display: inline-block;
     transform: rotate(90deg);
+    margin-left: 20px;
+    font-size: 4rem;
 }
 
 /* ============== WORKER STYLE ================== */
