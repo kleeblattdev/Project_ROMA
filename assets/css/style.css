@@ -173,12 +173,12 @@ header section{
 
 .sea{
     position: absolute;
-    width: 100vw;
+    width: 100%;
 }
 
 .kids{
     position: absolute;
-    width: 100vw;
+    width: 100%;
 }
 /* ============== FOOTER STYLE ================== */
 
