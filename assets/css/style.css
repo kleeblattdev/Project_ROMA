@@ -22,3 +22,55 @@ font-family: 'Santio bold';
     font-family: 'Santio bold';
     src: url(../fonts/SANTIO/TTF/Santio\ Bold.ttf);
 }
+
+/* ============== GLOBAL STYLES ================= */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, p{
+    font-family: 'Santio bold';
+}
+
+
+/* ============== HEADER STYLE ================== */
+
+
+
+/* ============== Take Action STYLE ================== */
+
+
+/* ============== Intro STYLE ================== */
+
+/* ============== Scroll Down STYLE ================== */
+
+.scrollText{
+    color:#e7bc0e;
+    font-family: 'Tangerine', cursive;
+}
+
+.arrowDown{
+    transform: rotate(180deg);
+}
+
+/* ============== WORKER STYLE ================== */
+
+/* ============== PAYMENT STYLE ================== */
+
+/* ============== INSURANCE STYLE ================== */
+
+/* ============== Heroes STYLE ================== */
+
+/* ============== MAIN STYLE ================== */
+
+/* ============== FOOTER STYLE ================== */
+
+/* ============== Donate Button STYLE ================== */
