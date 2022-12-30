@@ -45,9 +45,17 @@ h1, h2, h3, p{
     font-family: 'Santio bold';
 }
 
+h2{
+    font-size: 9rem;
+}
+
+.factSize{
+    font-size: 3rem;
+}
+
 .imgSize {
-    width: 350px;
-    height: 350px;
+    width: 200px;
+    height: 200px;
 }
 
 .outstanding {
@@ -58,6 +66,7 @@ h1, h2, h3, p{
 .intro, .heroes {
     font-size: 2.3rem;
     line-height: 1.5em;
+    padding-bottom: 10vh;
 }
 
 .intro, .insurance{
@@ -80,6 +89,11 @@ h1{
     width: 550px;
     margin-top: 20vh;
     margin-left: 5vw;
+}
+
+header section{
+    margin-left: 15vw;
+    padding: 25vh 0 25vh;
 }
 
 /* ============== Take Action STYLE ================== */
@@ -110,7 +124,7 @@ h1{
 .intro {
     width: 50vw;
     padding-top: 30vh;
-    margin: auto;
+    margin-left: 15vw;
 }
 
 /* ============== Scroll Down STYLE ================== */
@@ -123,13 +137,21 @@ h1{
     padding-top: 2vh;
 }
 
-.arrowDown{
+.arrowDown {
     transform: rotate(90deg);
 }
 
 /* ============== WORKER STYLE ================== */
 
+.workers {
+    color: #e7bc0e;
+}
+
 /* ============== PAYMENT STYLE ================== */
+
+.payment {
+    color: #cb91b6;
+}
 
 /* ============== INSURANCE STYLE ================== */
 
@@ -137,6 +159,8 @@ h1{
 
 .heroes{
     color: #7eb8e1;
+    width: 60vw;
+    margin-left: 30vw;
 }
 
 /* ============== MAIN STYLE ================== */
