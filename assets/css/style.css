@@ -229,7 +229,7 @@ h3{
     text-decoration: underline;
 }
 
-/* ============== MEDIA QUERIES MAX WIDTH ================== */
+/* ============== MEDIA QUERIES MAX WIDTH 992px ================== */
 
 @media only screen and (max-width:992px) {
     .children{
@@ -245,6 +245,8 @@ h3{
     }
 
 }
+
+/* ============== MEDIA QUERIES MAX WIDTH 576px ================== */
 
 @media only screen and (max-width:576px){
     .children{
