@@ -1,5 +1,5 @@
 /* Color Scheme
-#e7bc0e  / #efefef / #6bc1a3 / #cb91b6 / #7eb8e1 / #000 / #fff
+#e7bc0e  / #efefef / #6bc1a3 / #cb91b6 / #7eb8e1 / #000 / #fff #252325
  */
 
 /* Font-family
@@ -50,6 +50,20 @@ h1, h2, h3, p{
     height: 350px;
 }
 
+.outstanding {
+    color: #fff;
+    background-color: #252325;
+}
+
+.intro, .heroes {
+    font-size: 2.3rem;
+    line-height: 1.5em;
+}
+
+.intro, .insurance{
+    color: #6bc1a3;
+}
+
 /* ============== HEADER STYLE ================== */
 
 header{
@@ -91,8 +105,13 @@ h1{
     text-underline-offset: 8px ;
 }
 
-
 /* ============== Intro STYLE ================== */
+
+.intro {
+    width: 50vw;
+    padding-top: 30vh;
+    margin: auto;
+}
 
 /* ============== Scroll Down STYLE ================== */
 
@@ -101,6 +120,7 @@ h1{
     font-family: 'Tangerine-Bold', cursive;
     font-size: 3rem;
     margin-left: 5vw;
+    padding-top: 2vh;
 }
 
 .arrowDown{
@@ -114,6 +134,10 @@ h1{
 /* ============== INSURANCE STYLE ================== */
 
 /* ============== Heroes STYLE ================== */
+
+.heroes{
+    color: #7eb8e1;
+}
 
 /* ============== MAIN STYLE ================== */
 
