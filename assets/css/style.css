@@ -1,0 +1,24 @@
+/* Color Scheme
+#e7bc0e  / #efefef / #6bc1a3 / #cb91b6 / #7eb8e1 / #000 / #fff
+ */
+
+/* Font-family
+font-family: 'Roboto', sans-serif;
+font-family: 'Tangerine', cursive;
+font-family: 'Santio bold';
+*/
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Tangerine';
+    src: url(../fonts/Tangerine/Tangerine-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Santio bold';
+    src: url(../fonts/SANTIO/TTF/Santio\ Bold.ttf);
+}
